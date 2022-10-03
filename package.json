@@ -1,0 +1,23 @@
+{
+  "name": "testimonials-grid-section-main",
+  "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch style.scss  style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alseny-diallo/testimonials-grid-section.git"
+  },
+  "author": "alseny-diallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alseny-diallo/testimonials-grid-section/issues"
+  },
+  "homepage": "https://github.com/alseny-diallo/testimonials-grid-section#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
