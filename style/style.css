@@ -65,8 +65,13 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
   .card {
-    font-size: larger;
     margin: 0;
+  }
+  .card__header + p {
+    font-size: 1.25rem;
+  }
+  .card p:last-child {
+    font-size: 1.02rem;
   }
   .card--one {
     grid-column: 1/3;

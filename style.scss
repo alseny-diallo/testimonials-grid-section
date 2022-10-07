@@ -70,8 +70,13 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
   .card {
-    font-size: larger;
     margin: 0;
+    &__header + p {
+      font-size: 1.25rem;
+    }
+    p:last-child {
+      font-size: 1.02rem;
+    }
     &--one {
       grid-column: 1/3;
       grid-row: 1/2;
